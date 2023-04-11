@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 
 provider "terraform.io/test/version-only" {
   version = "1.0.0"

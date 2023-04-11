@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # The global cache is only an eligible installation source if there's already
 # a lock entry for the given provider and it contains at least one checksum
 # that matches the cache entry.

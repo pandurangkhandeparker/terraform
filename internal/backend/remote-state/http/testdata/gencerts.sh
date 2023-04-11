@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 #
 # Generates certs required for mTLS testing:
 # - ca.key and ca.cert.pem are self-signed, used as the source of truth for client and server to verify each other.

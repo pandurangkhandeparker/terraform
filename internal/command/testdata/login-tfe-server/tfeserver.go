@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 // Package tfeserver is a test stub implementing a subset of the TFE API used
 // only for the testing of the "terraform login" command.
 package tfeserver

@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 // Package oauthserver is a very simplistic OAuth server used only for
 // the testing of the "terraform login" and "terraform logout" commands.
 package oauthserver
