@@ -268,7 +268,7 @@ jobs:
           unzip "./terraform_${{env.version}}_${{ env.os }}_${{ env.arch }}.zip"
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
-        if: ${{ contains(matrix.goarch, 'arm') }}
+        if: ${{ contains(matrix.goarch, 'arm') || contains(matrix.goarch, 's390x') }}
         with:
           platforms: all
       - name: Run E2E Tests (Darwin & Linux)
